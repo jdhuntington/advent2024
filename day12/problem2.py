@@ -121,7 +121,8 @@ def discover_fence_cost(region):
                 break
             
             i += 1
-    print(segments)
+    print('len(segments)', len(segments), 'len(vertices)', len(vertices))
+    print(vertices)
     return len(segments) * len(coordinates)
             
 if __name__ == "__main__":
